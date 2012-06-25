@@ -1,0 +1,29 @@
+-# edit.html.haml using partial
+
+%div{:class=>'container_16'}
+  %div{:class=>'grid_16'}
+    %h2{:id=>'page-heading'}Edit Existing Pull Up Record
+    = form_tag pullup_path(@pull), :method => :put do
+      %br
+      %p 
+        %h3 User :  "#{@pull.user}"
+
+      = label :pull, :count, 'count'
+      = number_field :pull, :count
+      %br
+      = label :pull, :note, 'notes'
+      = text_field :pull, 'note'
+
+      = submit_tag 'Update pull Ups Count'
+      %br
+      %br
+      %br
+    = button_to 'Delete', pullup_path(@pull), :method => :delete, :confirm => 'Are you sure?'
+  %div{:class=>'container_16'}
+    %div{:class=>'grid_16'}
+      %div{:class=>'block'}
+  %div{:class=>'grid_16',:id=>"site_info"}
+    %div{:class=>'box'}
+      %p FOR HCI ASSIGNMENT
+      %a{:href=>''}
+  %div{:class=>'clear'}

@@ -1,0 +1,40 @@
+%div{:class=>'container_16'}
+  %div{:class=>'grid_16'}
+    %h2{:id=>'page-heading'}HOME
+  %div{:class=>'clear'}
+  %div{:class=>'grid_8'}
+    %div{:class=>'box'}
+      %h2{:id=>'login'}
+        %a{:href=>''}WELCOME
+      %div{:class=>'block'}
+        %div{:id=>'info',:style=>"height:280px"}
+          %br
+          - if !session[:user_id] 
+            %a{:href=> login_path} 
+              %h4 LOGIN
+            %br
+            %a{:href=> new_user_path} 
+              %h4 NEW USER
+          - if session[:user_id]
+            %h3 
+              = link_to 'LOGOUT', logout_path, method: :delete 
+
+          
+  %div{:class=>'grid_8'}
+    %div{:class=>'box'}
+      %h2{:id=>'login'}
+        %a{:href=>''}INFO
+      %div{:class=>'block'}
+        %div{:id=>'info',:style=>"height:280px"}
+          %h1 Build yourself!
+          %p The exersize tracking system will record your dayly exersize counts 
+          %p and  shows your results in graphical view
+          %p Watching your results in compare with your goal level,
+          %p shurely raises your motivation to proceed with your workouts
+  %br
+  %br
+  %div{:class=>'grid_16',:id=>"site_info"}
+    %div{:class=>'box'}
+      %p FOR HCI ASSIGNMENT
+      %a{:href=>''}
+  %div{:class=>'clear'}

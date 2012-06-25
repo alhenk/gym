@@ -1,0 +1,27 @@
+%div{:class=>'container_16'}
+  %div{:class=>'grid_16'}
+    %h2{:id=>'page-heading'}Create Push Up Record
+    = form_tag pushups_path do
+      %br
+      = hidden_field :push, :user,:value=> @user.name
+
+      -#= label :push, :user, 'user :'
+      -#= text_field :push, 'user'
+      %br
+
+      = label :push, :count, 'count'
+      = number_field :push, :count
+      %br
+
+      = label :push, :note, 'note :'
+      = text_field :push, 'note'
+
+      = submit_tag 'Save Changes'
+  %div{:class=>'container_16'}
+    %div{:class=>'grid_16'}
+      %div{:class=>'block'}
+  %div{:class=>'grid_16',:id=>"site_info"}
+    %div{:class=>'box'}
+      %p FOR HCI ASSIGNMENT
+      %a{:href=>''}
+  %div{:class=>'clear'}

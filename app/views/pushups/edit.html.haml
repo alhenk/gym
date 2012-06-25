@@ -1,0 +1,29 @@
+-# edit.html.haml using partial
+
+%div{:class=>'container_16'}
+  %div{:class=>'grid_16'}
+    %h2{:id=>'page-heading'}Edit Existing Push Up Record
+    = form_tag pushup_path(@push), :method => :put do
+      %br
+      %p 
+        %h3 User :  "#{@push.user}"
+
+      = label :push, :count, 'count'
+      = number_field :push, :count
+      %br
+      = label :push, :note, 'notes'
+      = text_field :push, 'note'
+
+      = submit_tag 'Update Push Ups Count'
+      %br
+      %br
+      %br
+    = button_to 'Delete', pushup_path(@push), :method => :delete, :confirm => 'Are you sure?'
+  %div{:class=>'container_16'}
+    %div{:class=>'grid_16'}
+      %div{:class=>'block'}
+  %div{:class=>'grid_16',:id=>"site_info"}
+    %div{:class=>'box'}
+      %p FOR HCI ASSIGNMENT
+      %a{:href=>''}
+  %div{:class=>'clear'}

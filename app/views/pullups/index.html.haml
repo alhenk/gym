@@ -1,0 +1,59 @@
+%div{:class=>'container_16'}
+  %div{:class=>'grid_16'}
+    %h2{:id=>'page-heading'}PULL-UPS
+%div{:class=>'container_16'}
+  %div{:class=>'grid_12'}
+    %div{:class=>'box'}
+      %h2{:id=>'login'}
+        %a{:href=>''}Check out your results!
+      %div{:class=>'block'}
+        %div{:id=>'info',:style=>"height:420px"}
+          = high_chart("pullups", @h) 
+          
+  %div{:class=>'grid_4'}
+    %div{:class=>'box'}
+      %h2{:id=>'login'}
+        %h2{:title=>"It doesn't work, yet."}BROWSE
+      %div{:class=>'block'}
+        %div{:id=>'info',:style=>"height:260px"}
+          %p Enter time interval dates mm/dd/yy of interest
+          %br
+          %p
+            %h3 SUBMIT
+          %br
+          %br
+          %p This feature isn't ready, 
+          %p it doesn't work yet
+  %div{:class=>'grid_4'}
+    %div{:class=>'box'}
+      %h2{:id=>'login'}
+        = link_to 'Add new record', new_pullup_path
+      %div{:class=>'block'}
+        %div{:id=>'info',:style=>"height:100px"}
+          %br
+          = link_to 'Enter the count of pull-ups that have  been done Today', new_pullup_path
+
+%div{:class=>'container_16'}
+  %div{:class=>'grid_16'}
+    %table#records
+      %thead
+        %tr
+          %th Count
+          %th Notes
+          %th Date
+
+      %tbody
+        - @allpullups.each do |tbl| 
+          %tr
+            %td= tbl.count
+            %td= tbl.note
+            %td= link_to " #{tbl.created_at} " , edit_pullup_path(tbl)
+
+  %div{:class=>'container_16'}
+    %div{:class=>'grid_16'}
+      %div{:class=>'block'}
+  %div{:class=>'grid_16',:id=>"site_info"}
+    %div{:class=>'box'}
+      %p  FOR HCI ASSIGNMENT
+      %a{:href=>''}
+  %div{:class=>'clear'}

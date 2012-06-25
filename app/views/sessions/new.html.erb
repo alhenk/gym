@@ -1,0 +1,33 @@
+<div class= 'container_16'>
+  <div class='grid_16'>
+  	<h2 id='page-heading'>LOGIN</h2>
+    <div class='box'>
+     <h2 id='login'>
+     	<a href=''> Login</a>
+     </h2>
+ 
+      <% if flash[:alert] %>
+        <p id="notice"><%= flash[:alert] %></p>
+      <% end %>
+      <%= form_tag do %>
+      <h3>Please Log In</h3>
+      <br/>
+      <div>
+         <label for="name">Name:</label>
+         <%= text_field_tag :name, params[:name] %>
+      </div>
+      <div>
+         <label for="password">Password:</label>
+         <%= password_field_tag :password, params[:password] %>
+      </div>
+      <br/>
+      <div>
+         <%= submit_tag "Login" %>
+      </div>
+      <br/>
+       <br/>
+      <% end %>
+      <%= link_to 'Back', users_path %>
+    </div>
+  </div>
+</div>

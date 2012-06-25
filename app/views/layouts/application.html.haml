@@ -1,0 +1,50 @@
+!!! 5
+%html
+  %head
+    %title Build yourself!
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+    = javascript_include_tag :highcharts
+    = csrf_meta_tags
+
+  %body
+    #main
+    %div{:class=>'container_16'}
+      %div{:class=>'grid_16'}
+        %h1{:id=>'branding'}
+          %a{:href=>''}GYM
+      %div{:class=>'grid_16'}
+        %ul{:class=>'nav main'}
+          %li 
+            %a{:href=> static_index_path }HOME
+          - if session[:user_id] 
+            %li
+              %a{:href=> pullups_path}PULL-UPS
+            %li
+              %a{:href=> pushups_path}PUSH-UPS
+            %li
+              -#%a{:href=> pushups_path}SIT-UPS
+            %li
+              -#%a{:href=>pushups_path}SQUATS
+            %li
+              -#%a{:href=>pushups_path}DIPS
+            %li
+              %a{:href=> goals_path}GOALS
+            %li{:class=>'secondary'}
+              = link_to 'LOGOUT', logout_path, method: :delete
+
+          %li{:class=>'secondary'}
+            %a{:href=> howtos_path}HELP
+ 
+
+    %div{:class=>'container_16'}
+      %div{:class=>'grid_16'}
+        %div{:class=>'block'}
+          - if flash[:notice]
+            #notice.message= flash[:notice]
+          - elsif flash[:warning]
+            #warning.message= flash[:warning]
+    
+    = yield
+
