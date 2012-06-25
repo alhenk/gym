@@ -58,6 +58,6 @@ Gym::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
   
-  config.action_mailer.delivery_method = :smtp | :sendmail | :test
+  #config.action_mailer.delivery_method = :smtp | :sendmail | :test
 
 end
