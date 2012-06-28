@@ -8,7 +8,6 @@ class Notifier < ActionMailer::Base
   #
   def forgot_password
     @greeting = "Hi"
-
     mail to: "to@example.org"
   end
 end

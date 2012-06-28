@@ -12,9 +12,9 @@ Gym::Application.initialize!
         address:"smtp.gmail.com",
         port:  587, 
         domain: "domain.of.sender.net",
-         authentication: "plain",
+        authentication: "plain",
         user_name: "dave",
-        password:        "secret",
+        password:  "secret",
         enable_starttls_auto: true
         }
 
