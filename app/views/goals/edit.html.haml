@@ -1,0 +1,37 @@
+-# edit.html.haml using partial
+
+%div{:class=>'container_16'}
+  %div{:class=>'grid_16'}
+    %h2{:id=>'page-heading'}Edit Goals
+    = form_tag goal_path(@user), :method => :put do
+      %br
+      %p 
+        %h3 User : "#{@user.name}"
+
+      = label :user, :pullups, 'Pull-Ups'
+      = number_field :user, :pullups
+      %br
+      = label :user, :pushups, 'Push-Ups'
+      = number_field :user, :pushups
+      %br
+      = label :user, :situps, 'Sit-Ups'
+      = number_field :user, :situps
+      %br
+      = label :user, :squats, 'Squats'
+      = number_field :user, :squats
+      %br
+      = label :user, :dips, 'Dips'
+      = number_field :user, :dips
+      %br
+      = submit_tag 'Update Your Goals'
+      %br
+      %br
+      %br
+  %div{:class=>'container_16'}
+    %div{:class=>'grid_16'}
+      %div{:class=>'block'}
+  %div{:class=>'grid_16',:id=>"site_info"}
+    %div{:class=>'box'}
+      %p FOR HCI ASSIGNMENT
+      %a{:href=>''}
+  %div{:class=>'clear'}

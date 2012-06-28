@@ -17,7 +17,7 @@ class PullupsController < ApplicationController
       @allpullups.each do |elm|
         if elm.count.to_i != nil and elm.count.to_i >0
           @pull_counts << elm.count.to_i
-          @goal_counts<<25
+          @goal_counts<<@user.pullups
           @pull_date << elm.created_at.strftime("%m/%d/%y")
         else
           #@pull_counts << 0
@@ -53,7 +53,7 @@ class PullupsController < ApplicationController
     @pull = Pullup.find params[:id]
     @pull.update_attributes!(params[:pull])
     flash[:notice] = "#{@pull.user}, your record of '#{@pull.count}' was successfully updated."
-    redirect_to pullups_path(@pull)
+    redirect_to pullups_path
   end
 
   def destroy

@@ -32,6 +32,11 @@ ActiveRecord::Schema.define(:version => 20120623164017) do
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "password_digest"
+    t.integer  "pushups"
+    t.integer  "pullups"
+    t.integer  "situps"
+    t.integer  "squats"
+    t.integer  "dips"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

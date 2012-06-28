@@ -6,15 +6,32 @@
   %div{:class=>'grid_16'}
     %div{:class=>'box'}
       %h2{:id=>'login'}
-        %a{:href=>''}ENTER YOUR GOALS
+        =link_to "ENTER YOUR GOALS", edit_goal_path(@user)
       %div{:class=>'block'}
         %div{:id=>'info',:style=>"height:280px"}
           %br
           %br
           %br
-          %p This feature isn't ready, 
-          %p it doesn't work yet
-
+          %div{:class=>'container_16'}
+            %div{:class=>'grid_16'}
+              %table#records
+                %thead
+                  %tr
+                    %th Name
+                    %th Pull-ups
+                    %th Push-ups
+                    %th Sit-ups
+                    %th Squats
+                    %th Dips
+                %tbody
+                  -# @user.each do |tbl| 
+                  %tr
+                    %td= @user.name
+                    %td= link_to "#{@user.pullups}", edit_goal_path(@user)
+                    %td= link_to "#{@user.pushups}", edit_goal_path(@user)
+                    %td= link_to "#{@user.situps}", edit_goal_path(@user)
+                    %td= link_to "#{@user.squats}", edit_goal_path(@user)
+                    %td= link_to "#{@user.dips}", edit_goal_path(@user)
   %br
   %br
   %div{:class=>'grid_16',:id=>"site_info"}
