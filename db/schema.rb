@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20120623164017) do
     t.datetime "updated_at"
   end
 
+
   create_table "pushups", :force => true do |t|
     t.string   "user"
     t.string   "count"

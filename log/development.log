@@ -74048,3 +74048,562 @@ ActionController::RoutingError (No route matches [GET] "/img/switch_minus.gif"):
   
 
 Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-28 04:18:07 -0700
+  Processing by StaticController#index as HTML
+  [1m[36mPushup Load (0.2ms)[0m  [1mSELECT "pushups".* FROM "pushups" [0m
+Rendered static/index.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 228ms (Views: 213.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:09 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /960.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/help.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /help.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /grid.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/goals.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /goals.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /admin.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/howtos.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /howtos.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /ie.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/ie6.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /ie6.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /layout.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /nav.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/pullups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /pullups.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pushups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /pushups.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /reset.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /sessions.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /static.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/text.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /text.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/goals.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /goals.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/help.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /help.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /howtos.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/pullups.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /pullups.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /static.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /sessions.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/switch_minus.gif" for 127.0.0.1 at 2012-06-28 04:18:10 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/switch_minus.gif"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-06-28 04:18:12 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/help.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /help.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /goals.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /grid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /howtos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /ie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie6.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /ie6.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pullups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /pullups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pushups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /pushups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /nav.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/text.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /text.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /goals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /howtos.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/help.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /help.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pullups.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /pullups.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/switch_minus.gif" for 127.0.0.1 at 2012-06-28 04:18:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/switch_minus.gif"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9viUEUlPDygJt8rG7sFG6tpCWJZPV9lf1mEdNcjdgiE=", "name"=>"Alhen", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'Alhen' LIMIT 1
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 219ms
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+  Processing by AdminController#index as HTML
+Redirected to http://localhost:3000/users
+Completed 302 Found in 1ms
+
+
+Started GET "/users" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+  Processing by UsersController#index as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+  Processing by StaticController#index as HTML
+  [1m[36mPushup Load (0.2ms)[0m  [1mSELECT "pushups".* FROM "pushups" [0m
+Rendered static/index.html.haml within layouts/application (1.2ms)
+Completed 200 OK in 104ms (Views: 30.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+Served asset /grid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/help.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:20 -0700
+Served asset /help.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /goals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie6.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /ie6.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /howtos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /ie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /nav.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pullups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /pullups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pushups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /pushups.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/text.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /text.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /goals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/help.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /howtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pullups.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /pullups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/switch_minus.gif" for 127.0.0.1 at 2012-06-28 04:18:21 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/switch_minus.gif"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/goals" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+  Processing by GoalsController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+Rendered goals/index.html.haml within layouts/application (10.4ms)
+Completed 200 OK in 129ms (Views: 55.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /grid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/help.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /help.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /goals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /howtos.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/ie6.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /ie6.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /ie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /nav.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pullups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /pullups.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/pushups.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /pushups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /reset.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/text.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /text.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /goals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /howtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pullups.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /pullups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/help.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:23 -0700
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:24 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:24 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2012-06-28 04:18:24 -0700
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/switch_minus.gif" for 127.0.0.1 at 2012-06-28 04:18:24 -0700
+
+ActionController::RoutingError (No route matches [GET] "/img/switch_minus.gif"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
