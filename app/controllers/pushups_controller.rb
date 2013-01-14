@@ -16,7 +16,7 @@ class PushupsController < ApplicationController
     @allpushups.each do |elm|
       if elm.count.to_i != nil and elm.count.to_i >0
         @push_counts << elm.count.to_i
-        @goal_counts<<25
+        @goal_counts<<@user.pushups
         @push_date << elm.created_at.strftime("%m/%d/%y")
       else
         #@push_counts << 0

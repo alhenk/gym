@@ -28,6 +28,13 @@
       <%= f.label :password_confirmation, 'Confirm' %>:
       <%= f.password_field :password_confirmation, size: 40 %>
     </div>
+    <div id= 'info'>
+      <%=  f.hidden_field :pullups, :value=> 0 %>
+      <%=  f.hidden_field :pushups, :value=> 0 %>
+      <%=  f.hidden_field :situps, :value=> 0 %>
+      <%=  f.hidden_field :squats, :value=> 0 %>
+      <%=  f.hidden_field :dips, :value=> 0 %>
+    </div>
     <br/>
     <div id= 'info'>
       <%= f.submit %>

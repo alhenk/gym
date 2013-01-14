@@ -5,18 +5,32 @@
   
   %div{:class=>'grid_16'}
     %div{:class=>'box'}
-      %h2{:id=>'login'}
-        %a{:href=>''}ENTER YOUR GOALS
+      %h2 ENTER YOUR GOALS
+
       %div{:class=>'block'}
         %div{:id=>'info',:style=>"height:280px"}
           %br
+          %p= "USER: #{@user.name}"
+          %table#records
+            %thead
+              %tr
+                %th Name
+                %th Pull-Ups
+                %th Push-Ups
+                %th Sit-Ups
+                %th Squats
+                %th Dips
+            %tbody
+              %tr
+                %td=  "#{@user.name }   " 
+                %td=  link_to " #{@user.pullups} " , edit_goal_path(@user)
+                %td=  link_to " #{@user.pushups} " , edit_goal_path(@user)
+                %td=  link_to " #{@user.situps}  " , edit_goal_path(@user)
+                %td=  link_to " #{@user.squats}  " , edit_goal_path(@user)
+                %td=  link_to " #{@user.dips}    " , edit_goal_path(@user)
           %br
-          %br
-          %p This feature isn't ready, 
-          %p it doesn't work yet
+          %p Clik on goal to edit value      
 
-  %br
-  %br
   %div{:class=>'grid_16',:id=>"site_info"}
     %div{:class=>'box'}
       %p  FOR HCI ASSIGNMENT
