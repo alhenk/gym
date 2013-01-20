@@ -86967,3 +86967,301 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-20 07:50:24 -0800
 Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-01-20 08:02:02 -0800
+Connecting to database specified by database.yml
+Processing by StaticController#index as HTML
+  [1m[36mPushup Load (0.1ms)[0m  [1mSELECT "pushups".* FROM "pushups" [0m
+  Rendered static/index.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 423ms (Views: 393.6ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /application.css - 200 OK (90ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /admin.css - 200 OK (17ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /960.css - 200 OK (8ms)
+
+
+Started GET "/assets/help.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /help.css - 200 OK (17ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /grid.css - 200 OK (6ms)
+
+
+Started GET "/assets/goals.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /goals.css - 200 OK (13ms)
+
+
+Started GET "/assets/howtos.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /howtos.css - 200 OK (14ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /ie.css - 200 OK (12ms)
+
+
+Started GET "/assets/ie6.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /ie6.css - 200 OK (20ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /layout.css - 200 OK (7ms)
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /nav.css - 200 OK (6ms)
+
+
+Started GET "/assets/pullups.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /pullups.css - 200 OK (8ms)
+
+
+Started GET "/assets/pushups.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:05 -0800
+Served asset /pushups.css - 200 OK (18ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /reset.css - 200 OK (8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /static.css - 200 OK (6ms)
+
+
+Started GET "/assets/text.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /text.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /jquery.js - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /jquery_ujs.js - 200 OK (11ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /admin.js - 200 OK (1ms)
+
+
+Started GET "/assets/goals.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /goals.js - 200 OK (16ms)
+
+
+Started GET "/assets/help.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /help.js - 200 OK (1ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /highcharts.js - 200 OK (8ms)
+
+
+Started GET "/assets/pullups.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /pullups.js - 200 OK (9ms)
+
+
+Started GET "/assets/howtos.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /howtos.js - 200 OK (18ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /static.js - 200 OK (11ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /application.js - 200 OK (38ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:06 -0800
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /grid.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/help.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /help.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /goals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/960.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /960.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /ie.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pullups.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /pullups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /howtos.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /nav.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ie6.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /ie6.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pushups.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /pushups.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/text.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /text.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/reset.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /reset.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:08 -0800
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/goals.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /goals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/help.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /help.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/howtos.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /howtos.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pullups.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /pullups.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/highcharts.js?body=1" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+Served asset /highcharts.js - 304 Not Modified (0ms)
+
+
+Started GET "/img/switch_minus.gif" for 127.0.0.1 at 2013-01-20 08:02:09 -0800
+
+ActionController::RoutingError (No route matches [GET] "/img/switch_minus.gif"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-01-20 08:02:17 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pdzm0Ok7q1FtrTUfu9DyUgtdQCccKgB7+QYPAOj/ZEQ=", "name"=>"Alhen", "password"=>"[FILTERED]", "commit"=>"Login"}
+Completed 500 Internal Server Error in 62ms
+
+Gem::LoadError (bcrypt-ruby is not part of the bundle. Add it to Gemfile.):
+  app/models/user.rb:4:in `<class:User>'
+  app/models/user.rb:1:in `<top (required)>'
+  app/controllers/sessions_controller.rb:8:in `create'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.8ms)
